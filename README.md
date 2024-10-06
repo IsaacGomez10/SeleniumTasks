@@ -6,9 +6,9 @@ This project automates three scenarios using **Java**, **Selenium**, and **TestN
 ## Project Structure
 
 - **src/test/java**  
-  - **Base**: This package is responsible for the setup and teardown of the browser, including initializing the WebDriver and managing browser sessions.
-  - **Locators**: This package holds the locators for the elements found in the web application under test.  
-  - **Scenarios**: This package contains the test scenarios that are automated using TestNG.  
+  - **com.slm.Base**: This package is responsible for the setup and teardown of the browser, including initializing the WebDriver and managing browser sessions.
+  - **com.slm.Locators**: This package holds the locators for the elements found in the web application under test.  
+  - **com.slm.Scenarios**: This package contains the test scenarios that are automated using TestNG.  
 
 ## Technologies Used
 
@@ -18,7 +18,7 @@ This project automates three scenarios using **Java**, **Selenium**, and **TestN
 
 ## Packages
 
-1. **Hooks**  
+1. **Base**  
    The hooks package includes the browser setup and teardown logic. The `BeforeTest` and `AfterTest` methods ensure that the browser starts and closes correctly during test execution.
 
 2. **Locators**  
