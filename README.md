@@ -1,23 +1,30 @@
 # Assignment Task: Selenium 101
-This project automates three scenarios using Java, Selenium, and TestNG. The project is organized into multiple packages to maintain modularity and readability.
+This project automates three scenarios using **Java**, **Selenium**, and **TestNG**. The structure is organized into separate packages for scenarios, locators, and hooks, with an XML file for execution.
 
-Project Structure
-Scenarios Package: Contains the test scenarios.
-Locators Package: Contains the web element locators used in the scenarios.
-Hooks Package: Contains setup and teardown methods responsible for initializing and closing the browser.
-Technologies Used
-Java: For writing test scripts.
-Selenium: For interacting with the web application.
-TestNG: For organizing and executing the test cases.
-Setup and Execution
-Prerequisites
-Java Development Kit (JDK) installed.
-TestNG library.
-Selenium WebDriver.
-Browser driver (e.g., ChromeDriver or GeckoDriver).
-Running the Tests
-To execute the tests, use the TestNG XML file. This file controls the execution of the test cases and ensures the browser setup and teardown are properly managed.
+## Project Structure
 
-Clone this repository.
-Configure your environment with the necessary drivers and libraries.
-Run the tests using the testng.xml file.
+- **src/main/java**  
+  - **scenarios**: This package contains the test scenarios that are automated using TestNG.  
+  - **locators**: This package holds the locators for the elements found in the web application under test.  
+  - **hooks**: This package is responsible for the setup and teardown of the browser, including initializing the WebDriver and managing browser sessions.
+
+## Technologies Used
+
+- **Java**  
+- **Selenium WebDriver**  
+- **TestNG**
+
+## Packages
+
+1. **Scenarios**  
+   This package contains the following test scenarios:
+   - `Scenario1`: Automates the first feature.
+   - `Scenario2`: Automates the second feature.
+   - `Scenario3`: Automates the third feature.
+
+2. **Locators**  
+   The locators are stored separately for easy maintenance and reusability.
+
+3. **Hooks**  
+   The hooks package includes the browser setup and teardown logic. The `BeforeTest` and `AfterTest` methods ensure that the browser starts and closes correctly during test execution.
+
