@@ -1,4 +1,4 @@
-# Assignment Task: Selenium 101
+# Assignment Task: Selenium 101 for Java
 
 ## :small_blue_diamond: Overview
 This project automates three scenarios using **Java**, **Selenium**, and **TestNG**. The structure is organized into separate packages for scenarios, locators, and hooks, with an XML file for execution.
