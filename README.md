@@ -30,3 +30,5 @@ This project automates three scenarios using **Java**, **Selenium**, and **TestN
    - `Scenario2`: Automates the second feature.
    - `Scenario3`: Automates the third feature.
 
+
+## Go to branch Assignments to see more about this project
